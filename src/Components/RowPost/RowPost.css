@@ -1,0 +1,27 @@
+.rowpost {
+  margin-top: 1.5rem;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.posters {
+  display: flex;
+  padding: 20px;
+  padding-left: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  max-height: 250px;
+  margin-right: 10px;
+}
+
+.posterSmall {
+  max-height: 200px;
+  margin-right: 20px;
+}
